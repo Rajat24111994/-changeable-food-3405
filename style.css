@@ -1,0 +1,61 @@
+#nav{
+display: flex;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+font-weight: 900;
+
+
+}
+
+#logo{
+    width: 150px;
+height: 100px;
+}
+h3:hover{
+    color: rgb(227, 17, 52)
+}
+#search{
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 70%;
+    height: 20px
+    
+}
+#banner{
+    display: flex;
+    margin-top: 2%;
+   
+
+}
+
+#popular{
+    display: flex;
+    justify-content: space-evenly;
+     align-items:center;
+    text-align: center;
+    
+}
+#popular>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#combo{
+    display: flex;
+    justify-content: space-evenly;
+     align-items:center;
+    text-align: center;
+  
+    
+}
+#combo>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#combo>div>img{
+    width: 70%;
+
+}
+#combo>div{
+    height: 300px;
+}
