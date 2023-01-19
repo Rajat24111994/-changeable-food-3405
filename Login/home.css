@@ -52,10 +52,62 @@ h3:hover{
 #combo>div:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#combo>div>img{
-    width: 70%;
-
+#combo>div>div>img{
+    
+    height: 200px;
+    width: 100px;
+}
+#combo>div>div{
+    width: 180px;
 }
 #combo>div{
-    height: 300px;
+    height: 400px;
 }
+
+#spotlight{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    text-align: center;
+  
+    
+}
+
+
+#spotlight>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#spotlight>div>div>img{
+    
+    height: 200px;
+    width: 100px;
+
+}
+#spotlight>div>div{
+    width: 180px;
+}
+#spotlight>div{
+    height: 400px;
+    
+}
+
+
+#care{
+    display: flex;
+    justify-content: space-evenly;
+     align-items:center;
+    text-align: center;
+    
+}
+#care>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#last{
+   
+    text-align: center;
+    color: green;
+}
+

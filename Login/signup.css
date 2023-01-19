@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+    text-align: center;
+}
+
+
+input{
+    width: 500px;
+    height: 25px;
+    margin: 1%;
+   
+}
+#button{
+ background-color: green;
+ color: white;
+ border: 0px;
+ height:30px;
+}
+button:hover{
+    box-shadow: rgba(4, 4, 4, 0.35) 0px 5px 15px;
+
+}
