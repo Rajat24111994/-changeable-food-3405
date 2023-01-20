@@ -111,3 +111,22 @@ h3:hover{
     color: green;
 }
 
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4%;
+}
+
+#footer>div>p:hover{
+    color: rgb(81, 236, 15)
+}
+
+button{
+  background-color: aqua;
+  border: 0px;
+  height: 30px ;
+}
+button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
