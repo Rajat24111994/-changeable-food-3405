@@ -32,7 +32,7 @@ document.querySelector("#loginform").addEventListener("submit", (e)=>{
 
   if (flag1 && flag2){
       alert("Redirecting to the main page")
-     window.location.href= "home.html"
+     window.location.href= "index.html"
   }else{
     alert("Wrong Credentials")
   }

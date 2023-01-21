@@ -1,0 +1,22 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    text-align: center;
+gap: 30px;
+}
+#main>div{
+width: 80%;
+    border: 1px solid red;
+}
+#main>div img{
+    width: 40%;
+    height: 330px;
+}
+#main>div>div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 4vh;
+}
