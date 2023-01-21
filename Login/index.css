@@ -1,0 +1,82 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+}
+#main>div{
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#main>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#main>div> img{
+
+    width: 55%;
+    height: 250px;
+}
+
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-weight: 900;
+    
+    
+    }
+    #banner{
+        display: flex;
+        margin-top: 2%;
+       
+    
+    }
+    #logo{
+        width: 150px;
+    height: 100px;
+    }
+    h3:hover{
+        color: rgb(227, 17, 52)
+    }
+    #search{
+        margin-left: 10%;
+        margin-top: 2%;
+        width: 70%;
+        height: 20px
+        
+    }
+
+    #last{
+   
+        text-align: center;
+        color: green;
+    }
+    
+    #footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4%;
+    }
+    
+    #footer>div>p:hover{
+        color: rgb(81, 236, 15)
+    }
+    
+    button{
+      background-color: aqua;
+      border: 0px;
+      height: 30px ;
+    }
+
+    button:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
