@@ -1,1 +1,1 @@
-This is a E-commerce site
+Changable Food is an innovative and dynamic e-commerce website that caters to the ever-evolving culinary preferences of food enthusiasts. This unique platform offers a wide range of customizable food options, allowing customers to personalize their meals according to their tastes, dietary restrictions, and nutritional needs.
